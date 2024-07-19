@@ -1,6 +1,12 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-
+  import img1 from '../assets/project-1.jpg'
+  import img2 from '../assets/shivangi-2.jpg'
+  import img3 from '../assets/shivangi-3.jpg'
+  import img4 from '../assets/shivangi-4.jpg'
+  import img5 from '../assets/shivangi-5.jpg'
+  import img6 from '../assets/shivangi-6.jpg'
+  import img7 from '../assets/shivangi-7.jpg'
 const container = {
   hidden: {},
   visible: {
@@ -15,7 +21,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title , src}) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -23,15 +29,18 @@ const Project = ({ title }) => {
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
+        <p className="text-2xl font-playfair">Happy BirthDay Shivi</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+        Every moment matters.
+        Life is made of small moments like this
+        Wherever we are together, that is home
+
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={src} alt={projectTitle} />
     </motion.div>
   );
+      
 };
 
 const Projects = () => {
@@ -51,16 +60,14 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red">PRO</span>JECTS
+            <span className="text-red">PHO</span>TOS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+        Cherished memories captured in moments of joy, adventure, and togetherness. Each picture tells a story of our journey and the beautiful experiences we've shared.
         </p>
       </motion.div>
 
@@ -80,17 +87,17 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="shivangi-1" src={img1} />
+          <Project title="Project 2"  src={img2} />
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Project 3" src={img3} />
+          <Project title="Project 4" src={img4} />
+          <Project title="Project 5" src={img5} />
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <Project title="Project 6" src={img6} />
+          <Project title="Project 7" src={img7} />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
