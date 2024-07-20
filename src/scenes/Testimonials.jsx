@@ -21,8 +21,7 @@ const Testimonials = () => {
         </p>
         <LineGradient width="mx-auto w-2/5" />
         <p className="mt-10">
-          Here's What People are Saying About My Work. Aliquam aliquet integer
-          ut fames odio in at. At magna ornare dictum lectus.
+        I'm thrilled to share that I've received some incredibly positive feedback on my work recently! It's so encouraging to hear that others appreciate and value what I do. Thank you all for your support and kind words; it truly means a lot and motivates me to keep pushing forward.
         </p>
       </motion.div>
 
@@ -42,7 +41,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea.
+          "You have an incredible ability to stay calm and focused under pressure."
           </p>
         </motion.div>
 
@@ -60,8 +59,7 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Aliquam aliquet integer ut fames odio in at. At magna ornare dictum
-            lectus.
+          "Thank you for your hard work and commitment to improving healthcare."
           </p>
         </motion.div>
 
@@ -79,7 +77,8 @@ const Testimonials = () => {
         >
           <p className="font-playfair text-6xl">“</p>
           <p className="text-center text-xl">
-            Fames odio in at. At magna ornare dictum lectus.
+          "Your dedication to helping others is truly inspiring."
+          Your knowledge and expertise are truly impressive."
           </p>
         </motion.div>
       </div>

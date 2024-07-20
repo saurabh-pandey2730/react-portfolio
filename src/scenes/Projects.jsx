@@ -35,7 +35,7 @@ const Project = ({ title , src, about}) => {
 
         </p>
       </div>
-      <img src={src} alt="image title"  className="w-80 h-96  object-cover	"/>
+      <img src={src} alt="image title"  className="w-80 h-96  object-cover mt-10	"/>
     </motion.div>
   );
       
@@ -43,7 +43,7 @@ const Project = ({ title , src, about}) => {
 
 const Projects = () => {
   return (
-    <section id="projects" className="pt-48 pb-48">
+    <section id="photos" className="pt-48 pb-48">
       {/* HEADINGS */}
       <motion.div
         className="md:w-2/5 mx-auto text-center"
@@ -81,26 +81,26 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-red
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold mt-10"
           >
             BEAUTIFUL USER INTERFACES
           </div>
           <Project title="Finaly .... Its ......" src={img1} about =" Every moment matters.
         Life is made of small moments like this
         Wherever we are together, that is home"/>
-          <Project title="31 July "  src={img2} />
+          <Project title="31 July "  src={img2} about="I hope your day is as amazing and special as you are. " />
 
           {/* ROW 2 */}
-          <Project title="Its......" src={img3} />
-          <Project title="Project 4" src={img4} />
-          <Project title="Project 5" src={img5} />
+          <Project title="My Love Aarush" src={img3} about="It's been wonderful getting to know you, and I feel lucky to have you in my life." />
+          <Project title="random clicked" src={img4} about=" Wishing you all the happiness, laughter, and love in the world today and always" />
+          <Project title="Project 5" src={img5} about=" Let's make some great memories together this year!" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" src={img6} />
-          <Project title="Project 7" src={img7} />
+          <Project title="Project 6" src={img6} about="Be a girl with a mind , a woman with attitude, and a lady with class." />
+          <Project title="Project 7" src={img7} about="Smile big, laugh often Be the girl who decided to go for it." />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"
+              max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold mt-10"
           >
             SMOOTH USER EXPERIENCE
           </div>
