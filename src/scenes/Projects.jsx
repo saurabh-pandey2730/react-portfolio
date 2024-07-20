@@ -21,23 +21,21 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title , src}) => {
+const Project = ({ title , src, about}) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
-  const projectTitle = title.split(" ").join("-").toLowerCase();
+  
 
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">Happy BirthDay Shivi</p>
+        <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-        Every moment matters.
-        Life is made of small moments like this
-        Wherever we are together, that is home
+        {about}
 
         </p>
       </div>
-      <img src={src} alt={projectTitle} />
+      <img src={src} alt={projectTitle}  className="w-80 h-96  object-cover	"/>
     </motion.div>
   );
       
@@ -87,11 +85,13 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="shivangi-1" src={img1} />
-          <Project title="Project 2"  src={img2} />
+          <Project title="Finaly .... Its ......" src={img1} about =" Every moment matters.
+        Life is made of small moments like this
+        Wherever we are together, that is home"/>
+          <Project title="31 July "  src={img2} />
 
           {/* ROW 2 */}
-          <Project title="Project 3" src={img3} />
+          <Project title="Its......" src={img3} />
           <Project title="Project 4" src={img4} />
           <Project title="Project 5" src={img5} />
 
