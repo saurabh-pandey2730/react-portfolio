@@ -35,7 +35,7 @@ const Project = ({ title , src, about}) => {
 
         </p>
       </div>
-      <img src={src} alt={projectTitle}  className="w-80 h-96  object-cover	"/>
+      <img src={src} alt="image title"  className="w-80 h-96  object-cover	"/>
     </motion.div>
   );
       
