@@ -93,11 +93,11 @@ const Projects = () => {
           {/* ROW 2 */}
           <Project title="My Love Aarush" src={img3} about="It's been wonderful getting to know you, and I feel lucky to have you in my life." />
           <Project title="random clicked" src={img4} about=" Wishing you all the happiness, laughter, and love in the world today and always" />
-          <Project title="Project 5" src={img5} about=" Let's make some great memories together this year!" />
+          <Project title="Eyes..." src={img5} about=" Let's make some great memories together this year!" />
 
           {/* ROW 3 */}
-          <Project title="Project 6" src={img6} about="Be a girl with a mind , a woman with attitude, and a lady with class." />
-          <Project title="Project 7" src={img7} about="Smile big, laugh often Be the girl who decided to go for it." />
+          <Project title="May be vitamin D 😊" src={img6} about="Be a girl with a mind , a woman with attitude, and a lady with class." />
+          <Project title="And The Last One" src={img7} about="Smile big, laugh often Being the girl who decided to go for it." />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold mt-10"
