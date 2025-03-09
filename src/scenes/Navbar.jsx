@@ -12,7 +12,7 @@ const Link = ({ page, selectedPage, setSelectedPage }) => {
       href={`#${lowerCasePage}`}
       onClick={() => setSelectedPage(lowerCasePage)}
     >
-      {page}
+      {page} 
     </AnchorLink>
   );
 };
@@ -88,7 +88,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 setSelectedPage={setSelectedPage}
               />
               <Link
-                page="projects"
+                page="Projects"
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />

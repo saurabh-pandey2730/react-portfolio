@@ -27,7 +27,7 @@ const Landing = ({ setSelectedPage }) => {
         ) : (
           <img
             alt="profile"
-            className="z-10 w-80 max-w-[400px] md:max-w-[590px] rounded-t-full"
+            className="z-10 w-80 max-w-[400px] md:max-w-[590px] rounded-t-full filter saturate-200"
             src={img1}
           />
         )}
