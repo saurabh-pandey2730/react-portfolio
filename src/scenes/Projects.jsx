@@ -1,12 +1,12 @@
 import LineGradient from "../components/LineGradient";
 import { motion } from "framer-motion";
-  import img1 from '../assets/project-1.jpg'
-  import img2 from '../assets/shivangi-2.jpg'
-  import img3 from '../assets/shivangi-3.jpg'
-  import img4 from '../assets/shivangi-4.jpg'
-  import img5 from '../assets/shivangi-5.jpg'
-  import img6 from '../assets/shivangi-6.jpg'
-  import img7 from '../assets/shivangi-7.jpg'
+  import img1 from '../assets/project-8.jpeg'
+  import img2 from '../assets/project-2.jpeg'
+  import img3 from '../assets/project-3.png'
+  import img4 from '../assets/project-4.jpeg'
+  import img5 from '../assets/project-5.jpeg'
+  import img6 from '../assets/project-6.jpeg'
+  import img7 from '../assets/project-7.jpeg'
 const container = {
   hidden: {},
   visible: {
@@ -58,7 +58,7 @@ const Projects = () => {
       >
         <div>
           <p className="font-playfair font-semibold text-4xl">
-            <span className="text-red">PHO</span>TOS
+            <span className="text-red">PRO</span>ECTS
           </p>
           <div className="flex justify-center mt-5">
             <LineGradient width="w-2/3" />
