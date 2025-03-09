@@ -12,7 +12,7 @@ const Landing = ({ setSelectedPage }) => {
       className="md:flex md:justify-between md:items-center gap-16 md:h-full py-10"
     >
       {/* IMAGE SECTION */}
-      <div className="basis-3/5 z-10 mt-12 md:mt-32 flex justify-center md:order-2">
+      <div className="basis-3/5 z-10 mt-14 md:mt-32 flex justify-center md:order-2">
         {isAboveLarge ? (
           <div
             className="relative z-0 ml-20 before:absolute before:-top-1 before:-left-0 before:-right-0 before:rounded-t-[400px]

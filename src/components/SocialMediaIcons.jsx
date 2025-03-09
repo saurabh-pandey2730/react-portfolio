@@ -1,3 +1,4 @@
+import img from '../assets/whatsapp.png'
 const SocialMediaIcons = () => {
   return (
     <div className="flex justify-center md:justify-start my-10 gap-7">
@@ -11,11 +12,11 @@ const SocialMediaIcons = () => {
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
-        href="https://www.twitter.com"
+        href="https://wa.me/919415863967"
         target="_blank"
         rel="noreferrer"
       >
-        <img alt="twitter-link" src="../assets/twitter.png" />
+        <img alt="twitter-link" src={img} className='h-12 mt-[-7px]'/>
       </a>
       <a
         className="hover:opacity-50 transition duration-500"
