@@ -57,7 +57,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-          Hi! I'm Shivangi, a dedicated and compassionate student currently pursuing a B.Sc. in Nursing. I am passionate about healthcare and committed to making a difference in patients' lives. 
+          I am a skilled software engineer with strong problem-solving abilities and expertise in [ Software Development and Artificial Intelligence]. Having served as the President of SPICMACAY, I have developed leadership, organizational, and decision-making skills. I stay calm in every situation and have a determined, self-reliant attitude, believing that I am sufficient to handle any challenge independently. With confidence, persistence, and dedication, I strive to deliver high-quality, innovative solutions in the tech space. 
           </p>
         </motion.div>
 
