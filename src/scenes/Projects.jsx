@@ -31,7 +31,7 @@ const Project = ({ title , src, about}) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-        {about}
+         <a href="https://github.com/saurabh-pandey2730/store.nextjs">{about}</a>
 
         </p>
       </div>
@@ -85,19 +85,17 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Finaly .... Its ......" src={img1} about =" Every moment matters.
-        Life is made of small moments like this
-        Wherever we are together, that is home"/>
-          <Project title="31 July "  src={img2} about="I hope your day is as amazing and special as you are. " />
+          <Project title="blog-App" src={img1} about ="The Blog Web App is a full-stack MERN (MongoDB, Express, React, Node.js) project that enables users to create, read, update, and delete blog posts. It features user authentication, a rich text editor, comment sections, and responsive design. The app ensures smooth performance with RESTful APIs and secure authentication using JWT." link="https://github.com/saurabh-pandey2730/blog-webApp"/>
+          <Project title="StoffCare "  src={img2} about="Stoffcare is a MERN-based Laundry Management System that streamlines order handling, tracking, and payments. It offers user authentication, order scheduling, real-time status updates, and admin controls. With a responsive UI, it enhances efficiency for both customers and laundry service providers, ensuring a seamless and hassle-free laundry experience." link="https://github.com/saurabh-pandey2730/Stoffcare.com" />
 
           {/* ROW 2 */}
-          <Project title="My Love Aarush" src={img3} about="It's been wonderful getting to know you, and I feel lucky to have you in my life." />
-          <Project title="random clicked" src={img4} about=" Wishing you all the happiness, laughter, and love in the world today and always" />
-          <Project title="Eyes..." src={img5} about=" Let's make some great memories together this year!" />
+          <Project title="Book-Store" src={img3} about="Book-Store is a Next.js-based online bookstore that enables users to browse, search, and purchase books effortlessly. It features dynamic product listings, a shopping cart, secure authentication, and seamless checkout. Optimized for performance and SEO, it offers a smooth user experience, making book discovery and purchasing fast and convenient." link="https://github.com/saurabh-pandey2730/store.nextjs" />
+          <Project title="comfy-store" src={img4} about="Comfy-Store is a React-based e-commerce platform for selling home furniture and decor. It features a modern UI, product filtering, a shopping cart, secure checkout, and user authentication. With a responsive design and smooth navigation, it provides a seamless shopping experience, making furniture browsing and purchasing easy and enjoyable."  link="https://comfy-store-seven-zeta.vercel.app/"/>
+          <Project title="MCPS - Noida" src={img5} about="MCPS College Noida is a React-based educational portal designed to provide information about courses, faculty, admissions, and campus life. It features a user-friendly interface, student login, event updates, and a responsive design. Optimized for performance, it ensures easy access to academic resources and enhances the student experience." link="https://mcps.vercel.app/" />
 
           {/* ROW 3 */}
-          <Project title="May be vitamin D 😊" src={img6} about="Be a girl with a mind , a woman with attitude, and a lady with class." />
-          <Project title="And The Last One" src={img7} about="Smile big, laugh often Being the girl who decided to go for it." />
+          <Project title="Shree Computer Shop" src={img6} about="Shree Computer Shop is a Django-based e-commerce platform for selling computers, accessories, and peripherals. It includes user authentication, product management, a shopping cart, secure checkout, and order tracking. With a responsive and efficient design, it offers a seamless shopping experience for tech enthusiasts and customers." link="https://shree-computer-shop.vercel.app/" />
+          <Project title="my-site" src={img7} about="My-Site is a full-stack Python Django-based web platform designed for personal or business use. It features user authentication, dynamic content management, a responsive UI, and database integration. With secure backend functionality and a seamless frontend experience, it ensures efficient content delivery, making it ideal for blogs, portfolios, or business websites." link="https://github.com/saurabh-pandey2730/my_site-" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold mt-10"
