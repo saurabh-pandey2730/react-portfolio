@@ -21,17 +21,17 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title , src, about}) => {
+const Project = ({ title , src, about,link}) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
-    bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
+    bg-grey z-30 flex flex-col justify-center items-center text-center p-8 text-deep-blue`;
   
 
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
-        <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-         <a href="https://github.com/saurabh-pandey2730/store.nextjs">{about}</a>
+        <p className="text-2xl font-playfair mb-3">{title}</p>
+        <p className="mt-2 ">
+         <a href={link}>{about}</a>
 
         </p>
       </div>
